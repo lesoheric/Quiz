@@ -1,0 +1,229 @@
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    height: 100%;
+}
+
+.wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background: #000;
+}
+
+.article {
+    flex: 1 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.about-joel {
+    bnorder: 1px solid rgb(235, 235, 235);
+    flex: 1 1 auto;
+    background: rgb(0, 0, 0);
+    display: flex;
+    margin-bottom: 20px;
+    border-bottom: 1px solid rgb(39, 39, 38);
+}
+
+.about {
+    margin-left: 100px;
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.lien-instagram {
+    bordder: 1px solid #000;
+    texst-align: center;
+    margin: 0 0 20px 100px;
+    text-decoration: none;
+    color: rgb(224, 136, 36);
+}
+.lien-instagram::before,.lien-instagram::after{
+    content: "—";
+    color: rgb(49, 158, 247);
+}
+
+.about  {
+    margin-top: 40px;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 15px;
+    letter-spacing: 0.2px;
+    word-spacing: 2px;
+    line-height: 20px;
+    color: #f0f0f0;
+    font-weight:500;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+
+    
+    }
+.about-name,.paragraphe{
+    margin-bottom: 40px;
+}
+
+.h1{
+    letter-spacing: 0.1px;
+    text-transform: uppexrcase;
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.titre{
+    color: #f0f0f0;
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 15px;
+}
+.contact{
+    line-height: 15px;
+}
+
+
+.about-gontran {
+    bojrder: 1px solid #000;
+    flex: 1 1 auto;
+    background: rgb(0, 0, 0);
+    display: flex;
+}
+
+
+
+.image {
+    flex: 0 0 50%;
+    background-image: url("../img/tor.svg");
+    background-size: cover;
+
+}
+
+.nav {
+    height: 55px;
+}
+
+.foot {
+    height: 100px;
+}
+
+/**************heaeder*************/
+
+.header {
+    display: flex;
+    background: rgb(15, 15, 15);
+    background: rgb(48, 48, 48);
+    background: linear-gradient(90deg, rgba(48, 48, 48, 1) 13%, rgba(1, 1, 1, 1) 20%, rgba(37, 20, 17, 1) 89%);
+}
+
+.logo {
+    margin: 5px 0 0 5px;
+    width: 120px;
+}
+
+.nav {
+
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-main {
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.link-main a,
+.youTube {
+    margin: 0 15px;
+    color: antiquewhite;
+    font: 15px/24px D-DIN-Bold, Arial, Verdana, sans-serif;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.link-main li:nth-child(1) a {
+    margin-left: 0;
+}
+
+.youTube {
+    margin: 13px 5px 0px 0px;
+    font-size: 13;
+}
+
+.link-main a:hover {
+    text-decoration: overline;
+    color: rgb(250, 16, 8);
+}
+
+.youTube:hover {
+    color: red;
+}
+
+
+/********footer*************/
+
+.footer {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 1.6;
+    padding: 20px;
+    background: rgb(20, 20, 20);
+    background: linear-gradient(90deg, rgba(20, 20, 20, 1) 7%, rgba(0, 0, 0, 1) 24%, rgba(0, 0, 0, 1) 100%);
+}
+
+.footer span {
+    display: block;
+    color: #5a5a5a;
+    font-style: normal;
+    font: 12px/24px D-DIN-Bold, Arial, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.footer a {
+    display: inline-block;
+    margin: 0 10px;
+    font: 12px/24px D-DIN-Bold, Arial, Verdana, sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+.footer a:hover {
+    color: red;
+}
+as {
+    text-decoration: none;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    padding: 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #f79438;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-tranfsform: uppercase;
+}
+
+as:hover {
+    text-decoration: overline;
+}

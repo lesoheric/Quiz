@@ -1,0 +1,251 @@
+
+
+html {
+    box-sizing: border-box;
+    height: 100%;
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+
+body {
+    height: 100%;
+    color: white;
+    badckground: rgb(236, 142, 0);
+}
+
+body {
+	bacxkground-image: linear-gradient(to top, rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 1)), url("../img/piano.jpg");
+	backgxround-size: cover;
+	backxground-position: right 0% bottom 0%;
+}
+
+.wrapper-background {
+    height: 100%;
+	background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 1)), url("../img/piano.jpg");
+	background-size: cover;
+	background-position: right 0% bottom 0%;
+    bbackground: rgb(245, 78, 78);
+}
+
+.main-wrapper {
+	display: flex;
+	flex-direction: column;
+	height: 100%;
+	margin: 0 10%;
+    bbackground: rgb(17, 99, 175);
+}
+.new-question{
+	backgrpound: rgb(19, 18, 18);
+border: 1px solid rgb(45, 97, 81);
+	height: 20%;
+	text-align: center;
+	align-items: center;
+	
+}
+.p-parole{
+	mmargin-top: 50px;
+}
+.section{
+	height: 40%;
+    flex-grow: 1 ;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+.nav{
+    height: 55px;
+}
+.foot{
+    height: 100px;
+}
+h2{
+    margin-top: 100px;
+    color: beige;
+    text-align: center;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 35px;
+    letter-spacing: 0.2px;
+    word-spacing: 1px;
+    line-height: 22px;
+    color: #5ef82f;
+    font-weight:500;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+}
+
+/*******heaeder**************/
+
+.header {
+    display: flex;
+    background: rgb(15, 15, 15);
+    background: rgb(48, 48, 48);
+    background: linear-gradient(90deg, rgba(48, 48, 48, 1) 13%, rgba(1, 1, 1, 1) 20%, rgba(37, 20, 17, 1) 89%);
+    flex: 0 0 auto;
+}
+
+.logo {
+    margin: 5px 0 0 5px;
+    width: 120px;
+}
+
+.nav {
+
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.link-main {
+    flex: 1 0 auto;
+    display: flex;
+    justify-content: center;
+    margin: 15px 0;
+}
+
+.link-main a,
+.youTube {
+    margin: 0 15px;
+    color: antiquewhite;
+    font: 15px/24px D-DIN-Bold, Arial, Verdana, sans-serif;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.link-main li:nth-child(1) a {
+    margin-left: 0;
+}
+
+.youTube {
+    margin: 13px 5px 0px 0px;
+    font-size: 13;
+}
+
+.link-main a:hover {
+    text-decoration: overline;
+    color: rgb(250, 16, 8);
+}
+
+.youTube:hover {
+    color: red;
+}
+/**********section**les ul li**********/
+
+
+.ul-cat{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.ul-cat li{
+	text-align: center;
+    background: rgb(184, 176, 176);
+    margin: 7px;
+    border-radius: 2.5px;
+    height: 30px;
+    width: 200px;
+
+}
+strong{
+	display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 17px;
+    background: green;
+    height: 30px;
+	border-radius: 2.5px;
+}
+
+
+
+
+
+
+/*******footer**************/
+
+.footer {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 1.6;
+    padding: 20px;
+    background: rgb(20, 20, 20);
+    background: linear-gradient(90deg, rgba(20, 20, 20, 1) 7%, rgba(0, 0, 0, 1) 24%, rgba(0, 0, 0, 1) 100%);
+	f5lex: 0 1 100px;
+}
+
+.footer span {
+    display: block;
+    color: #5a5a5a;
+    font-style: normal;
+    font: 12px/24px D-DIN-Bold, Arial, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.footer a {
+    display: inline-block;
+    margin: 0 10px;
+    font: 12px/24px D-DIN-Bold, Arial, Verdana, sans-serif;
+    font-weight: 400;
+    color: #fff;
+}
+
+.footer a:hover {
+    color: red;
+}
+as {
+    text-decoration: none;
+    font-style: oblique;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    padding: 20px;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #f79438;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-tranfsform: uppercase;
+}
+
+as:hover {
+    text-decoration: overline;
+}
+/**************table***************/
+caption {
+    padding: 10px;
+    caption-side: bottom;
+}
+
+table {
+    border-collapse: collapse;
+    border: 2px solid rgb(200, 200, 200);
+    letter-spacing: 1px;
+    font-family: sans-serif;
+    font-size: 0.8rem;
+}
+
+td,
+th {
+    border: 1px solid rgb(190, 190, 190);
+    padding: 10px 20px;
+}
+
+th {
+    background-color: rgb(77, 74, 74);
+}
+
+td {
+    text-align: center;
+}
